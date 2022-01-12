@@ -1,9 +1,9 @@
 /*
-    Template Name:  Minimal
+    Template Name:  Yellow
     Template URI:   http://en.michaeluno.jp
-    Author:         Michael Uno
-    Author URI:     http://en.michaeluno.jp
-    Description:    A very minimal template.
+    Author:         Daniel Kekipi
+    Author URI:     https://kekipi.com
+    Description:    This template features a yellow box and double border.
     Version:        1.0.0
     License:        GNU General Public License v2 or later
     License URI:    http://www.gnu.org/licenses/gpl-2.0.html
@@ -26,8 +26,15 @@
 	clear:both;
 	margin-bottom: 20px;
     font-size: medium;
+    
+    offset: 5px;
 }
 .amazon-products-minimal-container .amazon-product-title {
+    height: auto;
+    color: #12015c;
+    text-decoration: none;
+    background-color: #f;
+    
 }
 .amazon-products-minimal-container .amazon-product-thumbnail-container {
 	width: 100%;
@@ -35,6 +42,9 @@
 .amazon-products-minimal-container .amazon-product-thumbnail {
 	margin: 20px auto;
 	text-align: center;
+    max-width: 300px;
+    max-height: 300px;
+    width: 300px;
 }
 .amazon-products-minimal-container .amazon-product-thumbnail img {
 	max-width: 100%;
@@ -92,6 +102,7 @@
 }
 .amazon-products-minimal-container .amazon-customer-reviews .review-title {
     font-weight: bold;
+    color: #18ff00;
 }
 .amazon-products-minimal-container .amazon-customer-reviews .review-image-tile {
     display: inline-block;
@@ -134,7 +145,9 @@
 .amazon-products-minimal-container .sub-image-container {
     display: inline-block;
     clear: none;
-    margin: 1em;
+    margin: 0.5em;
+    width: 50px;
+    height: 50px;
 }
 .widget-area .amazon-products-minimal-container .sub-image-container { 
     margin: 0.4em 0.4em 0 0;
@@ -191,7 +204,7 @@
     float: right;
     position: absolute; 
     color:#111;
-    border:1px solid #DCA; 
+    border:0px solid #DCA; 
     background:#fffAF0;
     
     /* Adjust the pop up element position */
@@ -200,7 +213,7 @@
 }
 .amazon-products-minimal-container .pricing-disclaimer a.amazon-disclaimer-tooltip span.amazon-disclaimer-tooltip-content > .amazon-disclaimer-tooltip-content-text {
     border-radius:4px;
-    box-shadow: 5px 5px 8px #CCC;
+    box-shadow: 5px 5px 8px #f5f5f5;
 }
 
 /* Contents %content% */
@@ -276,4 +289,28 @@
 /* Features */
 .amazon-products-minimal-container ul.features {
     margin: 0.4em 0;
+}
+
+/* Kekipi Custom */
+.amazon-auto-links-product-body {
+padding: 20px;   
+background-color: #FFFFE5;
+
+
+}
+.amazon-auto-links-product-image {
+padding:20px;
+background-color: white;
+}
+
+.href {
+    color: #0f0f43;
+}
+.sub-images {
+ text-align: center;
+ background-color: white;
+}
+
+.amazon-auto-links-product {
+    border: 7px double #000;
 }
